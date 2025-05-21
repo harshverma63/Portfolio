@@ -509,6 +509,9 @@ strong {
     #ryt-container {
         margin: 30px 0 30px 0;
     }
+    body {
+        background-size: contain;
+    }
     .aboutContainer {
         display: flex;
         width: 100%;
@@ -588,6 +591,14 @@ strong {
         display: block!important;
     }
   }
+  @media only screen and (max-width: 395px) {
+    .navs li:after{
+        left: 44px;
+    }
+    .navs li:hover:after {
+        left: 38px;
+    }
+}
 
   @media only screen and (max-width: 380px) {
     h1 {
