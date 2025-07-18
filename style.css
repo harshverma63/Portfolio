@@ -9,7 +9,7 @@
     --lightblur: #CBEEF3;
   }
   /* Gradient Scroll Bar */
-
+ 
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -396,11 +396,11 @@ strong {
     display: none;
 }
 .skillName{
-    padding: 8px;
+    padding: 8px 12px;
     border: 1px solid #eaeff3;
-    border-radius: 20px;
+    border-radius: 14px;
     box-shadow: 1px 0px 10px 2px #e5ebef;
-    margin: 0 5px;
+    margin: 0 5px 0 11px;
 }
 .skillsContainer label div{
     padding: 8px 15px;
