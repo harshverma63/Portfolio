@@ -346,7 +346,7 @@ function projects() {
                                 <p>
 This dashboard empowers HR teams to efficiently manage and analyze employee information, enhancing decision-making and operational efficiency.
                                 </p>
-                                <a href="#" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/HR-Dashboard/index.html" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -370,7 +370,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Secure Authentication</strong>: Implements robust security measures to ensure data privacy and protect sensitive information.</li>
     </ul>
     <p>This dashboard enhances employee engagement by providing transparent access to critical information, fostering better financial awareness and performance tracking.</p>
-                                <a href="#" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/Employee-Dashboard/index.html" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -394,7 +394,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Contact</strong>: Offers a user-friendly way to connect with me through email, social media, or a contact form.</li>
     </ul>
     <p>The shifter functionality ensures fluid navigation, enhancing the user experience while maintaining a clean, modern design. This portfolio effectively communicates my professional identity and capabilities to potential employers and collaborators.</p>
-                                <a href="#" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/Portfolio/" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -506,7 +506,7 @@ function contact() {
                                             <!-- <div class="contactSocialLinks"> -->
                                                 <a href="https://www.linkedin.com/in/harsh-verma-b746ba210/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
-                                                <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                                <a href="https://github.com/harshverma63" target="_blank"><i class="fa-brands fa-github"></i></a>
 
                                                 <a href="https://wa.me/+919315993805" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
