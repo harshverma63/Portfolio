@@ -419,7 +419,9 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Shareable Link</strong>: Users can easily share the app link to invite others to experience the personalized greeting.</li>
     </ul>
     <p>The integration of EmailJS ensures reliable message delivery, enhancing interactivity, while the shifter functionality and multimedia elements make this app a memorable and user-friendly way to connect and celebrate.</p>
-                                <a href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                
+
+<p>Preview link will be added soon.</p>
                             </div>
 
                             <div class="projectDetails">
@@ -439,12 +441,19 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Minimalist Design</strong>: Focuses on functionality with a clean layout, making task management straightforward and distraction-free.</li>
     </ul>
     <p>By leveraging localStorage, this application provides a reliable and lightweight solution for task management, perfect for users seeking simplicity and persistence in their daily planning.</p>
-                                <a href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+<p>Preview link will be added soon.</p>
+
+
                             </div>
 
                         </div>`
 }
 
+// Add this code just two DIVs above and below the P tag
+/* <a  href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a> */
+
+// Add the below code in the greetings web app
+/* <a href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a> */
 
 function education() {
     if (window.matchMedia("(max-width: 600px)").matches) {
