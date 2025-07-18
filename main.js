@@ -6,7 +6,7 @@ const menu = document.getElementById("menu")
 
 // AboutContainer
 function about() {
-    
+
 
     rContainer.innerHTML = `
             <div class="aboutContainer">
@@ -346,7 +346,7 @@ function projects() {
                                 <p>
 This dashboard empowers HR teams to efficiently manage and analyze employee information, enhancing decision-making and operational efficiency.
                                 </p>
-                                <a href="https://harshverma63.github.io/HR-Dashboard/index.html" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/HR-Dashboard/index.html" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -370,7 +370,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Secure Authentication</strong>: Implements robust security measures to ensure data privacy and protect sensitive information.</li>
     </ul>
     <p>This dashboard enhances employee engagement by providing transparent access to critical information, fostering better financial awareness and performance tracking.</p>
-                                <a href="https://harshverma63.github.io/Employee-Dashboard/index.html" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/Employee-Dashboard/index.html" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -394,7 +394,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Contact</strong>: Offers a user-friendly way to connect with me through email, social media, or a contact form.</li>
     </ul>
     <p>The shifter functionality ensures fluid navigation, enhancing the user experience while maintaining a clean, modern design. This portfolio effectively communicates my professional identity and capabilities to potential employers and collaborators.</p>
-                                <a href="https://harshverma63.github.io/Portfolio/" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="https://harshverma63.github.io/Portfolio/" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -419,7 +419,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Shareable Link</strong>: Users can easily share the app link to invite others to experience the personalized greeting.</li>
     </ul>
     <p>The integration of EmailJS ensures reliable message delivery, enhancing interactivity, while the shifter functionality and multimedia elements make this app a memorable and user-friendly way to connect and celebrate.</p>
-                                <a href="#" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                             <div class="projectDetails">
@@ -439,7 +439,7 @@ This dashboard empowers HR teams to efficiently manage and analyze employee info
         <li><strong>Minimalist Design</strong>: Focuses on functionality with a clean layout, making task management straightforward and distraction-free.</li>
     </ul>
     <p>By leveraging localStorage, this application provides a reliable and lightweight solution for task management, perfect for users seeking simplicity and persistence in their daily planning.</p>
-                                <a href="#" class="gitLink">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
+                                <a href="#" class="gitLink" target="_blank">Git Preview <span class="btn-hover-icon"><i class="fa-sharp-duotone fa-solid fa-eye"></i></span></a>
                             </div>
 
                         </div>`
@@ -564,13 +564,13 @@ function hamburgerClose() {
 // CV Download PDF
 function downloadPDF() {
     // Restrict to mobile devices (optional)
-    
-        // Create a link element dynamically
-        const link = document.createElement("a");
-        link.href = "Files/Harsh Verma - Web Designer - Resume.pdf"; // Replace with your PDF file path
-        link.download = "Harsh Verma - Web Designer - Resume.pdf"; // Optional: specify the downloaded file name
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link); // Clean up
-    
+
+    // Create a link element dynamically
+    const link = document.createElement("a");
+    link.href = "Files/Harsh Verma - Web Designer - Resume.pdf"; // Replace with your PDF file path
+    link.download = "Harsh Verma - Web Designer - Resume.pdf"; // Optional: specify the downloaded file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link); // Clean up
+
 }
